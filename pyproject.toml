@@ -1,0 +1,2 @@
+[tool.pyright]
+include = ["sigtap_crawler", "sigtap_publisher"]
