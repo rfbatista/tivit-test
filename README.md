@@ -42,10 +42,12 @@ curl --location 'http://localhost:8000/token' \
 
 # Tentar acesso user
 
+
 ```sh
 curl --location --request GET 'http://localhost:8000/user' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcyODI1MTUyN30.jCWjyXQ9jIXsvMXVFuoy2AP21vJ1d7GcYA391QMU8K0'
 ```
+Observação: substituir o token pelo gerado no passo 4
 
 # Tentar acesso admin
 
@@ -53,3 +55,4 @@ curl --location --request GET 'http://localhost:8000/user' \
 curl --location --request GET 'http://localhost:8000/admin' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcyODI1MTUyN30.jCWjyXQ9jIXsvMXVFuoy2AP21vJ1d7GcYA391QMU8K0' 
 ```
+Observação: substituir o token pelo gerado no passo 4
